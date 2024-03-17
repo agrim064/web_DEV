@@ -1,0 +1,13 @@
+*{
+    margin:10px;
+    padding:5px;
+    background-color: black;
+    
+}
+
+table{
+    background-color: aliceblue;
+    color:white;
+    border: 5px dotted saddlebrown ;
+    width: 100%;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+            <div class="buttons">
+                <button onclick="appendNumber(1) ">1 </button>
+                <button onclick="appendNumber('2')">2</button>
+                <button onclick="appendNumber('3')">3</button>
+                <button onclick="setOperation('+')">+</button>
+                <button onclick="appendNumber('4')">4</button>
+                <button onclick="appendNumber('5')">5</button>
+                <button onclick="appendNumber('6')">6</button>
+                <button onclick="setOperation('-')">-</button>
+                <button onclick="appendNumber('7')">7</button>
+                <button onclick="appendNumber('8')">8</button>
+                <button onclick="appendNumber('9')">9</button>
+                <button onclick="setOperation('*')">*</button>
+                <button onclick="appendNumber('0')">0</button>
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="calculateResult()">=</button>
+                <button onclick="setOperation('/')">/</button>
+            
+            </div>
+    </div>
+
+    
+    <script src="p.js"></script>
+
+</body>
+</html>
+    <!-- <button onclick="f2()">CLICK ME</button> -->
+    <!-- <div id="unique" > Example of getElement by id  </div>
+    
+    <div class="customer"> Example of class</div>
+    <div class="ex"> Example of tagname</div>
+    <button onclick="f3()">CLICK ME</button> -->
+    <!-- <script src="p.js">
+        // function f2() {
+        //     window.alert("Agrim Started JS");
+        // }
+    </script> -->
+
+    <!-- <div id="uniqueElement">This is a div with an ID.</div>
+    <div class="exampleClass">This is the first div with a class name.</div>
+    <div class="exampleClass">This is the second div with the same class name.</div>
+    <p>This is a paragraph.</p>
+
+    <script>
+        // getElementById example
+        const elementById = document.getElementById("uniqueElement");
+        console.log(elementById.textContent);
+
+        // getElementsByClassName example
+        const elementsByClassName = document.getElementsByClassName("exampleClass");
+        for (let element of elementsByClassName) {
+            console.log(element.textContent);
+        }
+
+        // getElementsByTagName example
+        const elementsByTagName = document.getElementsByTagName("p");
+        for (let element of elementsByTagName) {
+            console.log(element.textContent);
+        }
+    </script> -->
+

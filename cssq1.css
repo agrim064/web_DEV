@@ -1,0 +1,37 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    background-color:azure;
+}
+
+.newspaper{
+    column-count: 3;
+    column-gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    column-rule: 2px solid #ccc;
+}
+
+h2{
+    font-size: 24px;
+    column-span: all;
+}
+p{
+    text-align: left;
+}
+.article{
+    margin-bottom: 20px;
+    break-inside: avoid;
+}
+.imgg{
+    display: grid;
+    margin-left: 480px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+
+h4{
+    text-align: right;
+    margin-right: 100px;
+}

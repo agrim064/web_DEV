@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    background-image: url("q6.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h2 ,p{
+    color: wpink;
+    display: inline-block;
+    text-align: left;
+}
